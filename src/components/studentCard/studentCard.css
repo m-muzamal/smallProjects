@@ -1,0 +1,163 @@
+.card-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 60%;
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+  transition: all ease 2s;
+  animation-name: mzml;
+  animation-duration: 2s;
+}
+@keyframes mzml {
+  from {
+    height: 0%;
+    /* width: 0%; */
+  }
+  to {
+    height: 60%;
+    /* width: 50%; */
+  }
+}
+
+.head {
+  background-color: blue;
+  height: 30%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  position: relative;
+}
+.title {
+  display: flex;
+  margin-left: 35%;
+  height: 100%;
+  text-align: left;
+  align-items: center;
+}
+.title-text {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid white;
+  height: 80%;
+  width: 90rem;
+  color: white;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.logo-img {
+  height: 100%;
+  width: auto;
+}
+.card-title {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  letter-spacing: 4px;
+}
+.title-p {
+  font-size: 20px;
+}
+.left {
+  width: 33%;
+}
+.image {
+  position: absolute;
+  background-color: blue;
+  height: 15rem;
+  width: 13rem;
+  margin-left: 2rem;
+  top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  display: flex;
+  height: 14rem;
+  width: 12rem;
+  left: 2rem;
+  border: 2px solid white;
+}
+.box1 {
+  display: flex;
+  background-color: rgb(68, 68, 255);
+  height: 2rem;
+  margin-top: 8.5rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.box2 {
+  background-color: rgb(104, 104, 250);
+  height: 2rem;
+}
+.box3 {
+  background-color: rgb(166, 166, 248);
+  height: 2rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 5rem;
+  color: blue;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+p {
+  margin: 0;
+}
+.right {
+  display: flex;
+  margin-left: 33%;
+  top: 30%;
+  background-image: url("../../assets/bg.jpg");
+  width: 67%;
+  height: 70%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-bottom-right-radius: 1rem;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 3rem;
+  line-height: 2.5rem;
+  font-weight: 500;
+  color: blue;
+  text-transform: uppercase;
+}
+.bottom {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  background-color: rgb(215, 211, 0);
+  padding-left: 1rem;
+  text-align: left;
+}
+.confirm-btn {
+    margin: 1rem;
+    width: 5rem;
+    margin-left: 45%;
+}

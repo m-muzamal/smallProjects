@@ -1,0 +1,87 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+  }
+  
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.blurred {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    filter: blur(2px); 
+    transition: all ease 0.5s;
+}
+.preview {
+    position: absolute;
+    
+}
+.header-text {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 50%;
+    height: 60%;
+    border-radius: 15px;
+}
+.items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.inputs {
+    display: flex;
+    align-items: center;
+}
+.header-text2 {
+    font-size: large;
+    margin: 10px;
+}
+.input-text {
+    font-size: 15px;
+    width: 10rem;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    background-color: transparent;
+    color: white;
+    outline: none;
+    padding-bottom: 5px;
+}
+input::placeholder {
+    opacity: 0.3;
+}
+button {
+    font-size: large;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+button:hover {
+    scale: 1.1;
+}
