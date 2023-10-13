@@ -16,12 +16,6 @@ function Api() {
     setSelectedPrize(data);
   };
 
-  (async () => {
-    const response = await fetch("https://irfangul92.github.io/index.json")
-    const item = response.json();
-    console.log(item.nobelPrizes);
-  })();
-
   return (
     <div className="container">
       <div className="content">
